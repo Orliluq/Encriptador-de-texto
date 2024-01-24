@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/resources/images/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Styles-->
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header class="header">
+        <a href="https://www.aluracursos.com" target="_blank" class="link-logo">
+            <img src="./resources/images/alura-logo.svg" alt="Logo Alura" class="alura-logo">
+        </a>
+    </header>
+    <main class="main">
+        <section class="principal-content">
+            <div class="text-container">
+                <textarea name="text" id="text" cols="" rows="" placeholder="Inserte el texto aqui"></textarea>
+            </div>
+            <div class="buttons-container">
+                <div class="warning">
+                    <img src="./resources/images/warning-signal.svg" alt=""><p class="warning-text">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="buttons">
+                    <button class="btn encrypt">Encriptar</button>
+                    <button class="btn decrypt">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="card__container">
+            <textarea name="encrypted-text" id="encrypted-textarea" cols="10" rows="30" class="encrypted-textarea hidden" onkeyup="showTextarea(this.value)"></textarea>
+            <div class="card__content">
+                <img src="./resources/images/figura.svg" alt="" class="card__figura">
+                <h2 class="card__h2">Ningún mensaje fue encontrado</h2>
+                <p class="card__p">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <button class="copy">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        &copy; Desarrollado por Orlibet Dun, Grupo 6. ONE Oracle - Alura Latam 2024 
+    </footer> <!--footer desarrollador-->
+    <script src="./index.js"></script>
+</body>
+</html>
