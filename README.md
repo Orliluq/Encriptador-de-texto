@@ -1,6 +1,7 @@
 # Encriptador de Texto | Challenge ONE - Oracle Next Education
 
-## Challenge ONE - Sprint 01: Construye un encriptador de texto con HTML, CSS y Javascript
+
+### Challenge ONE - Sprint 01: Construye un encriptador de texto con HTML, CSS y Javascript
 
 Link del proyecto al final ⬇
 
@@ -36,14 +37,14 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 ---
 
-**Visualiación:**  
+**Visualización:**  
   
 ![Encriptador](https://github.com/Orliluq/Encriptador-de-texto/assets/122529721/fee3f378-a67a-4cd7-ba94-141522f1fd77)
 
 
 ---
 
-[**Ir a la página** ✌]
+[**Ir a la página** ✌](https://orliluq.github.io/Encriptador-de-texto/)
 
 
 
