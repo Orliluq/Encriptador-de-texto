@@ -1,5 +1,5 @@
 <p align="center">
-![image](https://github.com/Orliluq/Encriptador-de-texto/assets/122529721/d313752a-1da3-4c6a-ae4f-321dce34e384)
+  <img src="https://github.com/Orliluq/Encriptador-de-texto/assets/122529721/d313752a-1da3-4c6a-ae4f-321dce34e384"
 </p>
 
 # Encriptador de Texto | Challenge ONE - Oracle Next Education
