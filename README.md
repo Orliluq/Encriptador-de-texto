@@ -42,7 +42,8 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 **Visualización:**  
   
-![Encriptador](https://github.com/Orliluq/Encriptador-de-texto/assets/122529721/fee3f378-a67a-4cd7-ba94-141522f1fd77)
+![Encriptador](https://github.com/Orliluq/Encriptador-de-texto/assets/122529721/beb329ec-3ef4-48be-86ef-461b10a41546)
+
 
 
 ---
