@@ -29,7 +29,7 @@ body {
     background-position: center;
     padding: 1rem;
     background-color: #e5e5e5;
-    height: 90vh;
+    height: 95vh;
 }
 
 .header {
@@ -218,6 +218,7 @@ body {
 
 footer {
     font-size: 15px;
+    width: 100%;
     text-align: center;
     color:rgb(8, 2, 61);
     box-sizing: border-box;
