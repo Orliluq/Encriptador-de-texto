@@ -1,9 +1,7 @@
 <p align="center">
   <img src="https://github.com/Orliluq/Encriptador-de-texto/assets/122529721/d313752a-1da3-4c6a-ae4f-321dce34e384"
-</p>
-# <p align="center" Encriptador de Texto | Challenge ONE - Oracle Next Education>
- 
-</p>
+
+# Encriptador de Texto | Challenge ONE - Oracle Next Education>
 
 ### Challenge ONE - Sprint 01: Construye un encriptador de texto con HTML, CSS y Javascript
 
