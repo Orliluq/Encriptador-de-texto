@@ -34,12 +34,29 @@ function showTextarea(textareaValue) {
 }
 
 //Función que verifica si el texto posee acentos y en caso de que sí, las reemplaza por caracteres sin acento. 
-function checkText(textareaValue) {
+/* function checkText(textareaValue) {
     let newText = textareaValue.replace(/á/g, "a")
                             .replace(/é/g, "e")
                             .replace(/í/g, "i")
                             .replace(/ó/g, "o")
                             .replace(/ú/g, "u")
+                            .replace(/Á/g, "")
+                            .replace(/É/g, "")
+                            .replace(/Í/g, "")
+                            .replace(/Ó/g, "")
+                            .replace(/Ú/g, "")
+    return newText;
+} */
+
+function checkText(textareaValue) {
+    // Convierte todo el texto a minúsculas
+    let lowerCaseText = textareaValue.toLowerCase();
+    // Realiza el reemplazo de los caracteres acentuados por caracteres no acentuados
+    let newText = lowerCaseText.replace(/á/g, "a")
+                               .replace(/é/g, "e")
+                               .replace(/í/g, "i")
+                               .replace(/ó/g, "o")
+                               .replace(/ú/g, "u");
     return newText;
 }
 
