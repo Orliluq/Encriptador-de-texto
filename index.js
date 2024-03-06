@@ -48,7 +48,7 @@ function showTextarea(textareaValue) {
     return newText;
 } */
 
-function checkText(textareaValue) {
+/* function checkText(textareaValue) {
     // Convierte todo el texto a minúsculas
     let lowerCaseText = textareaValue.toLowerCase();
     // Realiza el reemplazo de los caracteres acentuados por caracteres no acentuados
@@ -58,7 +58,39 @@ function checkText(textareaValue) {
                                .replace(/ó/g, "o")
                                .replace(/ú/g, "u");
     return newText;
+} */
+
+function checkText(textareaValue) {
+  // Convertir a minúsculas
+  let lowerCaseText = textareaValue.toLowerCase();
+
+  // Reemplazar acentos con expresiones regulares
+  let newText = lowerCaseText.replace(/á|à|ä/g, "a")
+    .replace(/é|è|ë/g, "e")
+    .replace(/í|ì|ï/g, "i")
+    .replace(/ó|ò|ö/g, "o")
+    .replace(/ú|ù|ü/g, "u")
+    .replace(/ñ/g, "n")
+    .replace(/ç/g, "c");
+
+  return newText;
 }
+
+function replaceAccent(char) {
+  const accents = ["á", "é", "í", "ó", "ú", "à", "è", "ì", "ò", "ù", "ä", "ë", "ï", "ö", "ü", "ñ", "ç"];
+  const noAccent = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "n", "c"];
+
+  const index = accents.indexOf(char);
+  return index !== -1 ? noAccent[index] : char;
+}
+
+textarea.addEventListener("keyup", (event) => {
+  let newText = "";
+  for (let i = 0; i < event.target.value.length; i++) {
+    newText += replaceAccent(event.target.value[i]);
+  }
+  textarea.value = newText;
+});
 
 function encryptText(textareaValue) {
     // Se declara una variable que almacenará el valor que retorne la función checkText
